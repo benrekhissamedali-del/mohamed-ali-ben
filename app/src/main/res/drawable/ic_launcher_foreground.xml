@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Cocktail Coupe / Glass Silhouette on the right side -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M62,40 L78,40 L70,52 L70,64 L64,64 L64,66 L76,66 L76,64 L72,64 L72,52 Z" />
+    <!-- Cocktail Garnish / Olive or Citrus wheel -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M60,38 A3,3 0 1,1 66,38 A3,3 0 1,1 60,38" />
+
+    <!-- Chef Cloche / Dish Cover on the left side -->
+    <!-- Cloche handle -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M42,38 A3,3 0 1,1 46,38 A3,3 0 1,1 42,38" />
+    <!-- Cloche dome -->
+    <path
+        android:pathData="M32,56 C32,46 36,41 44,41 C52,41 56,46 56,56 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="41"
+                android:endX="56"
+                android:endY="56"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FBBF24" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Dish platter plate base -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M29,58 L59,58 C60,58 60.5,59 59.5,60 L28.5,60 C27.5,59 28,58 29,58 Z" />
+
+    <!-- Food Cost % / Calculator badge in lower center -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M46,67 L62,67 C64,67 65,68 65,70 L65,77 C65,79 64,80 62,80 L46,80 C44,80 43,79 43,77 L43,70 C43,68 44,67 46,67 Z" />
+    <!-- % symbol on badge -->
+    <!-- top left circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,70 A1.5,1.5 0 1,1 51,70 A1.5,1.5 0 1,1 48,70" />
+    <!-- slash -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50.5,76.5 L57.5,70.5 L58.5,71.5 L51.5,77.5 Z" />
+    <!-- bottom right circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57,77 A1.5,1.5 0 1,1 60,77 A1.5,1.5 0 1,1 57,77" />
+</vector>

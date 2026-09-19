@@ -1,0 +1,6 @@
+{
+  "name": "FoodCost Pro",
+  "description": "Calculateur professionnel de food cost, beverage cost, ratios et marges pour plats et cocktails en restauration et bar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
